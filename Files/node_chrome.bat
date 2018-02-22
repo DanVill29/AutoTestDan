@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-3.8.1.jar -role node -port 5555 -hub http://localhost:4444/grid/register/ -browser browserName=chrome,maxInstances=5,platform=WINDOWS -browserTimeout 360000 -timeout 360000 -maxSession 100

@@ -1,0 +1,14 @@
+environment[===]QA
+
+QA
+test_name[===]CoreTest
+browser[===]chrome
+url[===]https://www.facebook.com
+config_name[===]CoreTest
+
+QA
+test_name[===]CoreTest2
+browser[===]Firefox
+url[===]https://www.yahoo.com
+config_name[===]CoreTest2
+

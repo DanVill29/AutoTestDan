@@ -1,0 +1,142 @@
+14:58:28.191 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+14:58:28.191 INFO - Launching Selenium Grid hub
+14:58:29.191 INFO - Will listen on 4444
+14:58:29.316 INFO - Nodes should register to http://192.168.43.132:4444/grid/register/
+14:58:29.316 INFO - Selenium Grid hub is up and running
+14:58:38.114 WARN - Max instance not specified. Using default = 1 instance
+14:58:38.114 INFO - Registered a node http://192.168.43.132:5555
+15:04:15.963 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+15:04:15.963 INFO - Launching Selenium Grid hub
+15:04:16.905 INFO - Will listen on 4444
+15:04:17.062 INFO - Nodes should register to http://192.168.43.132:4444/grid/register/
+15:04:17.062 INFO - Selenium Grid hub is up and running
+15:04:21.476 WARN - Max instance not specified. Using default = 1 instance
+15:04:21.476 INFO - Registered a node http://192.168.43.132:5555
+15:04:25.088 WARN - Max instance not specified. Using default = 1 instance
+15:04:25.104 INFO - Registered a node http://192.168.43.132:55556
+15:04:29.251 WARN - Max instance not specified. Using default = 1 instance
+15:04:29.251 INFO - Registered a node http://192.168.43.132:55557
+15:04:36.862 WARN - Max instance not specified. Using default = 1 instance
+15:04:36.877 INFO - Registered a node http://192.168.43.132:55558
+15:14:57.609 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+15:14:57.609 INFO - Launching Selenium Grid hub
+15:14:58.641 INFO - Will listen on 4444
+15:14:58.766 INFO - Nodes should register to http://192.168.43.132:4444/grid/register/
+15:14:58.766 INFO - Selenium Grid hub is up and running
+15:15:01.943 WARN - Max instance not specified. Using default = 1 instance
+15:15:01.975 INFO - Registered a node http://192.168.43.132:5555
+15:16:23.811 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+15:16:23.811 INFO - Launching Selenium Grid hub
+15:16:24.811 INFO - Will listen on 4444
+15:16:24.920 INFO - Nodes should register to http://192.168.43.132:4444/grid/register/
+15:16:24.920 INFO - Selenium Grid hub is up and running
+15:16:31.096 WARN - Max instance not specified. Using default = 1 instance
+15:16:31.111 INFO - Registered a node http://192.168.43.132:5555
+15:25:23.016 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+15:25:23.031 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=dbe6a5e4-32e4-4a43-9119-9d974483f53f, browserName=chrome, platform=WINDOWS}
+15:27:24.770 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+15:27:24.770 INFO - Launching Selenium Grid hub
+15:27:25.801 INFO - Will listen on 4444
+15:27:25.926 INFO - Nodes should register to http://192.168.43.132:4444/grid/register/
+15:27:25.926 INFO - Selenium Grid hub is up and running
+15:27:30.078 WARN - Max instance not specified. Using default = 1 instance
+15:27:30.078 INFO - Registered a node http://192.168.43.132:5555
+15:27:36.987 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+15:27:36.990 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=ffcb9d78-24c8-48c2-9061-2f01a7ed0931, browserName=chrome, platform=WINDOWS}
+15:28:56.940 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+15:28:56.943 INFO - Launching Selenium Grid hub
+15:28:58.027 INFO - Will listen on 4444
+15:28:58.157 INFO - Nodes should register to http://192.168.43.132:4444/grid/register/
+15:28:58.157 INFO - Selenium Grid hub is up and running
+15:29:00.177 WARN - Max instance not specified. Using default = 1 instance
+15:29:00.190 INFO - Registered a node http://192.168.43.132:5555
+15:29:06.543 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+15:29:06.546 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=fa7bc6c9-ff42-4c54-b8e1-4ef4b88b12fa, browserName=chrome, platform=WINDOWS}
+15:29:24.504 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+15:29:24.504 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=fa7bc6c9-ff42-4c54-b8e1-4ef4b88b12fa, browserName=chrome, platform=WINDOWS}
+15:31:52.493 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+15:31:52.493 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=fa7bc6c9-ff42-4c54-b8e1-4ef4b88b12fa, browserName=chrome, platform=WINDOWS}
+15:31:58.018 INFO - Got a request to create a new session: Capabilities {browserName: firefox, moz:firefoxOptions: {}}
+15:31:58.019 INFO - Error forwarding the new session cannot find : Capabilities {browserName: firefox, moz:firefoxOptions: {}}
+org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: firefox, moz:firefoxOptions: {}}
+	at org.openqa.grid.internal.ProxySet.verifyAbilityToHandleDesiredCapabilities(ProxySet.java:153)
+	at org.openqa.grid.internal.DefaultGridRegistry.addNewSessionRequest(DefaultGridRegistry.java:228)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:110)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:84)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:561)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:334)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:104)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:243)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:679)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:597)
+	at java.base/java.lang.Thread.run(Unknown Source)
+15:32:38.247 WARN - Max instance not specified. Using default = 1 instance
+15:32:38.249 INFO - Registered a node http://192.168.43.132:55556
+15:32:46.945 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+15:32:46.945 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=fa7bc6c9-ff42-4c54-b8e1-4ef4b88b12fa, browserName=chrome, platform=WINDOWS}
+15:32:52.380 INFO - Got a request to create a new session: Capabilities {browserName: firefox, moz:firefoxOptions: {}}
+15:32:52.383 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=55d5a864-d2a5-435b-95fe-1f51d1b82c68, browserName=firefox, platform=WINDOWS}
+15:33:57.165 WARN - Max instance not specified. Using default = 1 instance
+15:33:57.167 INFO - Registered a node http://192.168.43.132:55558
+15:33:59.434 WARN - Max instance not specified. Using default = 1 instance
+15:33:59.436 INFO - Registered a node http://192.168.43.132:55557
+15:34:05.393 INFO - Got a request to create a new session: Capabilities {browserName: MicrosoftEdge}
+15:34:05.393 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=f5a74ce8-71eb-4276-8df1-027d48217108, browserName=MicrosoftEdge, platform=WINDOWS}
+15:34:14.388 INFO - Got a request to create a new session: Capabilities {browserName: MicrosoftEdge}
+15:34:14.388 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=f5a74ce8-71eb-4276-8df1-027d48217108, browserName=MicrosoftEdge, platform=WINDOWS}
+15:34:50.513 INFO - Got a request to create a new session: Capabilities {browserName: internet explorer, platformName: windows, se:ieOptions: {enablePersistentHover: true, nativeEvents: true}}
+15:34:50.514 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=77d92840-f84a-4e71-8ddd-3820874dc45f, browserName=internet explorer, platform=WINDOWS}
+15:35:01.409 INFO - Got a request to create a new session: Capabilities {browserName: internet explorer, platformName: windows, se:ieOptions: {enablePersistentHover: true, nativeEvents: true}}
+15:35:01.410 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=77d92840-f84a-4e71-8ddd-3820874dc45f, browserName=internet explorer, platform=WINDOWS}
+15:35:12.565 INFO - Got a request to create a new session: Capabilities {browserName: internet explorer, platformName: windows, se:ieOptions: {enablePersistentHover: true, nativeEvents: true}}
+15:35:12.566 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=77d92840-f84a-4e71-8ddd-3820874dc45f, browserName=internet explorer, platform=WINDOWS}
+15:35:24.938 INFO - Got a request to create a new session: Capabilities {browserName: internet explorer, platformName: windows, se:ieOptions: {enablePersistentHover: true, nativeEvents: true}}
+15:35:24.941 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=77d92840-f84a-4e71-8ddd-3820874dc45f, browserName=internet explorer, platform=WINDOWS}
+15:35:37.943 INFO - Got a request to create a new session: Capabilities {browserName: internet explorer, platformName: windows, se:ieOptions: {enablePersistentHover: true, nativeEvents: true}}
+15:35:37.944 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=77d92840-f84a-4e71-8ddd-3820874dc45f, browserName=internet explorer, platform=WINDOWS}
+20:53:39.285 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+20:53:39.326 INFO - Launching Selenium Grid hub
+20:53:41.441 INFO - Will listen on 4444
+20:53:41.644 INFO - Nodes should register to http://192.168.1.33:4444/grid/register/
+20:53:41.644 INFO - Selenium Grid hub is up and running
+20:53:43.208 INFO - Registered a node http://192.168.1.33:5555
+20:53:45.794 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+20:53:45.802 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=78bde6bf-9037-42c8-ae35-fd080151d43a, browserName=chrome, maxInstances=5, platform=WINDOWS}
+20:55:59.200 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+20:55:59.202 INFO - Launching Selenium Grid hub
+20:56:00.052 INFO - Will listen on 4444
+20:56:00.163 INFO - Nodes should register to http://192.168.1.33:4444/grid/register/
+20:56:00.163 INFO - Selenium Grid hub is up and running
+20:56:04.168 INFO - Registered a node http://192.168.1.33:5555
+20:56:07.535 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+20:56:07.539 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=50ed9ac3-bb20-4369-8e18-98da137139b8, browserName=chrome, maxInstances=5, platform=WINDOWS}
+21:29:37.048 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+21:29:37.049 INFO - Launching Selenium Grid hub
+21:29:37.872 INFO - Will listen on 4444
+21:29:37.991 INFO - Nodes should register to http://192.168.1.33:4444/grid/register/
+21:29:37.992 INFO - Selenium Grid hub is up and running
+21:29:42.475 INFO - Registered a node http://192.168.1.33:5555
+21:29:44.774 INFO - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {}}
+21:29:44.779 INFO - Trying to create a new session on test slot {seleniumProtocol=WebDriver, se:CONFIG_UUID=62c47c08-57d4-4b1c-b214-39782bb1bc93, browserName=chrome, maxInstances=5, platform=WINDOWS}

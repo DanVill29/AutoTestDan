@@ -1,0 +1,11 @@
+# User-specific files
+
+#Bin Directorys
+AutoTestDan/bin/*
+
+#Obj Directorys
+AutoTestDan/obj/*
+
+#TestResults Directory
+TestResults/*
+*.lock
