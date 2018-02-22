@@ -10,3 +10,6 @@ AutoTestDan/obj/*
 TestResults/*
 *.lock
 .vs/AutoTestDan/v15/.suo
+
+
+*.suo
