@@ -9,3 +9,4 @@ AutoTestDan/obj/*
 #TestResults Directory
 TestResults/*
 *.lock
+.vs/AutoTestDan/v15/.suo
